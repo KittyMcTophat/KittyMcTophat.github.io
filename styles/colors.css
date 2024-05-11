@@ -21,8 +21,11 @@ nav > a:hover {
     -webkit-text-fill-color: var(--nav-text-color-hover);
 }
 
-nav > a.active {
-    background-color: var(--nav-color-active);
+/* It doesn't really look right on phones to show the active page like that */
+@media screen and (orientation: landscape) {
+    nav > a.active {
+        background-color: var(--nav-color-active);
+    }    
 }
 
 main {
