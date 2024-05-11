@@ -9,7 +9,10 @@ body {
 body > * { margin: 0px; }
 
 body > header { grid-area: header; }
-body > nav    { grid-area: nav; }
+body > nav    {
+    grid-area: nav;
+    display: flex;
+}
 body > main   { grid-area: main; }
 body > footer { grid-area: footer; }
 
@@ -25,7 +28,6 @@ body {
 }
 
 body > nav {
-    display: flex;
     flex-direction: column;
 }
 
