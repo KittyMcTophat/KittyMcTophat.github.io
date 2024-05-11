@@ -5,6 +5,11 @@ const navLinks = [
 
 var currentPage = "";
 
+$.ajaxSetup ({
+    // Disable cache because it messes up the page load
+    cache: false,
+});
+
 $(() => {
     initializeNavBar();
     initializeSmolYuri();
