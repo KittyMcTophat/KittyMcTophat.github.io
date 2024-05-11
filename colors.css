@@ -1,0 +1,35 @@
+html {
+    -webkit-text-fill-color: var(--default-text-color);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: var(--header-color);
+    -webkit-text-fill-color: var(--header-text-color);
+}
+
+nav {
+    background-color: var(--nav-color);
+    -webkit-text-fill-color: var(--nav-text-color);
+}
+
+nav > *:hover {
+    background-color: var(--nav-color-hover);
+    -webkit-text-fill-color: var(--nav-text-color-hover);
+}
+
+nav > *.active {
+    background-color: var(--nav-color-active);
+}
+
+main {
+    background-color: var(--main-color);
+}
+
+footer {
+    background-color: var(--footer-color);
+    -webkit-text-fill-color: var(--footer-text-color);
+}
