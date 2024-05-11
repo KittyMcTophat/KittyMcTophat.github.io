@@ -1,14 +1,14 @@
 /* Defines colors used in colors.css */
 :root {
     --dark-purple:          color-mix(in srgb, indigo 60%, black);
-    --lavender:             color-mix(in srgb, plum 50%, white);
-    --lighter-lavender:     color-mix(in srgb, plum 35%, white);
+    --lavender:             color-mix(in srgb, plum 60%, white);
+    --lighter-lavender:     color-mix(in srgb, plum 40%, white);
 
     --background-color:     var(--lighter-lavender);
     --default-text-color:   var(--dark-purple);
 
     --header-color:         darkviolet;
-    --header-text-color:    var(--lavender);
+    --header-text-color:    var(--lighter-lavender);
 
     --nav-color:            plum;
     --nav-color-hover:      color-mix(in srgb, var(--nav-color) 50%, var(--background-color));
@@ -19,5 +19,5 @@
     --main-color:           var(--lavender);
 
     --footer-color:         indigo;
-    --footer-text-color:    var(--lavender);
+    --footer-text-color:    var(--lighter-lavender);
 }
