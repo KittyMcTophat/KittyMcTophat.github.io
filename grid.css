@@ -24,4 +24,9 @@ body {
         "footer footer footer footer";
 }
 
+body > nav {
+    display: flex;
+    flex-direction: column;
+}
+
 /* TODO: Mobile Grid Layout */
