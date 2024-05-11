@@ -16,12 +16,12 @@ nav {
     -webkit-text-fill-color: var(--nav-text-color);
 }
 
-nav > *:hover {
+nav > a:hover {
     background-color: var(--nav-color-hover);
     -webkit-text-fill-color: var(--nav-text-color-hover);
 }
 
-nav > *.active {
+nav > a.active {
     background-color: var(--nav-color-active);
 }
 
