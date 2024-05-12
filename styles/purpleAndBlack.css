@@ -10,7 +10,7 @@
     --header-text-color:    var(--default-text-color);
 
     --nav-color:            color-mix(in srgb, indigo 75%, darkviolet);
-    --nav-color-hover:      color-mix(in srgb, var(--nav-color) 60%, var(--background-color));
+    --nav-color-hover:      color-mix(in srgb, var(--nav-color) 45%, var(--background-color));
     --nav-color-active:     var(--background-color);
     --nav-text-color:       var(--default-text-color);
     --nav-text-color-hover: lightgray;
