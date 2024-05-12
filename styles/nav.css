@@ -1,5 +1,21 @@
 nav > a {
+    min-height: 3rem;
     font-size: 1.2rem;
-    text-align: center;
     cursor: pointer;
+
+    position: relative;
+    text-align: center;
+}
+
+nav > a:hover {
+    font-size: 1.3rem;
+}
+
+nav > a > div {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 100%;
 }

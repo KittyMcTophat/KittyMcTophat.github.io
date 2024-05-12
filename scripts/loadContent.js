@@ -21,9 +21,11 @@ function initializeNavBar() {
     for (let i = navLinks.length - 1; i >= 0; --i) {
         let link = navLinks[i];
         let $a = $("<a>");
+        let $div = $("<div>");
         const id = "navLink" + i;
 
-        $a.text(link[0]);
+        $a.append($div);
+        $div.text(link[0]);
         $a.prop("id", id);
 
         $a.on("click", () => {
