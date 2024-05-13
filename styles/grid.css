@@ -43,7 +43,7 @@ body > nav {
 /* TODO: Mobile Grid Layout */
 @media screen and (orientation: portrait) {
     body {
-        grid-template-columns: 2.5% auto 2.5%;
+        grid-template-columns: 5% auto 5%;
         grid-template-rows: fit-content(0px) fit-content(0px) auto auto fit-content(0px);
         grid-template-areas:
             "header header header"
