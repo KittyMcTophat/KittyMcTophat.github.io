@@ -12,7 +12,6 @@ $.ajaxSetup ({
 
 $(() => {
     initializeNavBar();
-    initializeSmolYuri();
 });
 
 function initializeNavBar() {
@@ -48,13 +47,4 @@ function loadPage(page) {
         if (link[1] === page)
             currentPage = link[0];
     $("#pageName").text(currentPage);
-}
-
-function initializeSmolYuri() {
-    let $SmolYuri = $("#SmolYuriImg");
-
-    $SmolYuri.on("click", () => {
-        let clickSound = new Audio("./sounds/squeak.mp3");
-        clickSound.play();
-    });
 }
