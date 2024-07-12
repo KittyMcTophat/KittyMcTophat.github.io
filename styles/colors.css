@@ -1,38 +1,26 @@
-html {
-    -webkit-text-fill-color: var(--default-text-color);
-}
+/* Defines colors used in colors.css */
+:root {
+    --basically-black:      #0B0D0E; /* color-mix(in srgb, slategray 10%, black); */
+    --dark-gray:            #22262B; /* color-mix(in srgb, slategray 30%, black); */
+    
+    --electric-purple:      #7000AB; /* color-mix(in srgb, darkviolet 50%, indigo); */
+    --darker-purple:        #5D0096; /* color-mix(in srgb, indigo 75%, darkviolet); */
+    --middle-purple:        #6700A1;/* color-mix(in srgb, var(--darker-purple) 45%, var(--electric-purple)); */
 
-body {
-    background-color: var(--background-color);
-}
+    --background-color:     var(--electric-purple);
+    --default-text-color:   ivory;
 
-header {
-    background-color: var(--header-color);
-    -webkit-text-fill-color: var(--header-text-color);
-}
+    --header-color:         var(--basically-black);
+    --header-text-color:    var(--default-text-color);
 
-nav {
-    background-color: var(--nav-color);
-    -webkit-text-fill-color: var(--nav-text-color);
-}
+    --nav-color:            var(--darker-purple);
+    --nav-color-hover:      var(--middle-purple);
+    --nav-color-active:     var(--electric-purple);
+    --nav-text-color:       var(--default-text-color);
+    --nav-text-color-hover: lightgray;
 
-nav > a:hover {
-    background-color: var(--nav-color-hover);
-    -webkit-text-fill-color: var(--nav-text-color-hover);
-}
+    --main-color:           var(--dark-gray);
 
-/* It doesn't really look right on phones to show the active page like that */
-@media screen and (orientation: landscape) {
-    nav > a.active {
-        background-color: var(--nav-color-active);
-    }    
-}
-
-main {
-    background-color: var(--main-color);
-}
-
-footer {
-    background-color: var(--footer-color);
-    -webkit-text-fill-color: var(--footer-text-color);
+    --footer-color:         var(--basically-black);
+    --footer-text-color:    var(--default-text-color);
 }
