@@ -42,9 +42,8 @@ function initializeNavBar() {
 }
 
 function loadPage(page) {
-    $("main").load("./pages/" + page);
-    for (let link of navLinks)
-        if (link[1] === page)
-            currentPage = link[0];
-    $("#pageName").text(currentPage);
+    $("main").load("./pages/" + page, () => {
+        let titleTag = $("meta.pageTitle")
+        $("#pageName").text(titleTag.attr("content"));
+    });
 }
