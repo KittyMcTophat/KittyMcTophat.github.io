@@ -5,7 +5,7 @@
     
     --electric-purple:      #7000AB; /* color-mix(in srgb, darkviolet 50%, indigo); */
     --darker-purple:        #5D0096; /* color-mix(in srgb, indigo 75%, darkviolet); */
-    --middle-purple:        #6700A1;/* color-mix(in srgb, var(--darker-purple) 45%, var(--electric-purple)); */
+    --middle-purple:        #6700A1; /* color-mix(in srgb, var(--darker-purple) 45%, var(--electric-purple)); */
 
     --background-color:     var(--electric-purple);
     --default-text-color:   ivory;
