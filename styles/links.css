@@ -1,0 +1,12 @@
+.socialLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    row-gap: 16px;
+}
+
+.socialLinks a {
+    text-decoration: none;
+    min-width: 96px;
+}
